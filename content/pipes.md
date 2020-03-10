@@ -202,7 +202,7 @@ async create(createCatDto) {
 
 #### Class validator
 
-> warning **Warning** The techniques in this section require TypeScript, and are not available if your app is written using vanilla JavaScript.
+> warning **Warning** The techniques in this section require TypeScript, and are not available if your app is written using vanilla JavaScript. Also, you must have `"emitDecoratorMetadata": true` enabled in your `tsconfig.json` file.
 
 Let's look at an alternate implementation of our validation technique.
 
